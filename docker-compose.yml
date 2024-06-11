@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  laravel:
+    build: ./news-aggregator-api
+    container_name: laravel_container
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./news-aggregator-api:/var/www/html
+    env_file:
+      - variables.env
+     
+   
+  react:
+    build: ./news-aggregator-frontend
+    container_name: react_container
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./news-aggregator-frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=production
+      # Add other environment variables as needed

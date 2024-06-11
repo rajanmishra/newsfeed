@@ -1,0 +1,22 @@
+/* src/components/Profile.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+  }
+  

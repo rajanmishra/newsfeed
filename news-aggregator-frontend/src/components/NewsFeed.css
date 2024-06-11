@@ -1,0 +1,35 @@
+/* NewsFeed.css */
+
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .form-control,
+  .form-select {
+    margin-bottom: 15px;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .list-container {
+    overflow-y: auto;
+    max-height: 500px;
+  }
+
+  @media (max-width: 767px) {
+    .list-container {
+      overflow-y: auto;
+      max-height: 400px;
+    }
+  
+  }
