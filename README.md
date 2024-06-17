@@ -4,7 +4,7 @@ React and Laraevl News Feed APIS
 
 ##Set-Up Locally
 ----------------------
-1. Install Docke, verify using ```docker --version```
+1. Install Docker, verify using ```docker --version```
 2. Go to the project root ```your unzip location /```
 2. You must be seeing docker-compose.yml and variables.env file
 3. Update the required variable values in variables.env
